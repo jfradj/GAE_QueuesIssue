@@ -9,7 +9,7 @@ This project demoes a bug that prevent queue.yaml file to be loaded/interpreted 
   - PHP app with two modules (the default and another one) and a queue.yaml file
 
 ### Steps to reproduce
-Launch the demo project without any launch settings so nly the default module will be launched.
+Launch the demo project without any launch settings so only the default module will be launched.
 If you go to the local dashboard in the Task Queues tab (http://localhost:8000/taskqueue), you will see that all the custom queues defined in queue.yaml will be there.
 
 Launch the demo project with the full path of the 'analytics' module as an extra flag of the launch settings so the default module and the analytics one will be launched.
