@@ -1,0 +1,9 @@
+queue:
+
+- name: api
+  rate: 10/s
+
+- name: analytics
+  rate: 1/m
+
+- name: foo

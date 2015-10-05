@@ -1,0 +1,12 @@
+application: com-fradj-johann-queues-tests
+version: 1
+module: analytics
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: .*
+  script: index.php
+  login: admin
